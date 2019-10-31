@@ -1,4 +1,12 @@
-$primary: #3292a6;
+$theme-colors: (
+  'primary': #3292a6
+);
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
 $primary-overlay: rgba(50, 146, 166, 0.8);
 
 body {
